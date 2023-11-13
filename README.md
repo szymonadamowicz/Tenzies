@@ -27,8 +27,9 @@ This app was created following a tutorial that you can find [here](#your-tutoria
   
 ## How to Run
 1. Clone the repository.
-2. Install dependencies using `npm install`.
-3. Run the app with `npm start`.
+2. Use the command `cd tenzies`.
+3. Install dependencies using `npm install`.
+4. Run the app with `npm start`.
 
 ## Code Structure
 - **App.js:** Main application logic and state management.
