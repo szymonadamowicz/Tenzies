@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Tenzies React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This is a simple React application called "Tenzies" that allows users to play a dice game. The goal of the game is to roll the dice until all dice show the same value. Players can click on each die to freeze its current value between rolls.
 
-## Available Scripts
+## How to Play
+1. Click the dice to freeze or unfreeze them.
+2. Roll the dice by clicking the "Roll" button.
+3. Keep rolling until all dice show the same value.
+4. If successful, the game will indicate "Tenzies," and you can start a new game.
 
-In the project directory, you can run:
+## Tutorial
+This app was created following a tutorial that you can find [here](#your-tutorial-link). The tutorial provides detailed steps and explanations for building the Tenzies React app.
 
-### `npm start`
+## Components
+- **App (App.js):**
+  - Manages the state of the dice and the game.
+  - Provides functions for generating new dice, rolling dice, and holding/unholding dice.
+  - Uses the Die component to display individual dice.
+  
+- **Die (Die.js):**
+  - Represents an individual die with its value and hold status.
+  - Clicking on a die toggles its hold status.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Dependencies
+- **nanoid:** Used for generating unique IDs for each die.
+  
+## How to Run
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Run the app with `npm start`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Code Structure
+- **App.js:** Main application logic and state management.
+- **Die.js:** Component for displaying individual dice.
+- **index.js:** Entry point rendering the App component.
+- **reportWebVitals.js:** Utilizes web-vitals library to report performance metrics.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+This app is a simple demonstration of React and state management for a dice game. Feel free to explore and modify the code to suit your needs. Enjoy playing Tenzies!
